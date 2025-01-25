@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset  style="border: 3px solid; height:200px; width: 200px;box-sizing: border-box;align-content: center; background-color: antiquewhite;box-shadow: 1px 1px 5px 1px;color: red">
+        <legend><h2 style="color: blueviolet;">counting no</h2></legend>
+            <hi id="num" style="border: 3px solid pink;margin-left: 43%; padding: 5px; box-shadow: 1px 1px 5px 1px;color: blue;">0</hi><br><br>
+            <button onclick="add()" style="margin-left: 34%;box-shadow: 1px 1px 5px 1px;color: blue;"><h style="color: black;">+</h1></button>
+            <button onclick="sub()" style="box-shadow: 1px 1px 5px 1px;color: red;margin-left: 5px;width: 22.9px;color: blue;">-</button><br><br>
+            <button onclick="restart()" style="margin-left: 35%;box-shadow: 1px 1px 5px 1px;color: red;color: blue;">restart</button>
+    </fieldset>
+</body>
+<script> let num=0;
+    function add(){
+      num+=1
+      document.getElementById("num").innerHTML=num;
+      console.log(x)
+    }
+    function sub(){
+      num-=1
+      document.getElementById("num").innerHTML=num;
+      console.log(x)
+    }
+    function restart(){
+      num=0
+      document.getElementById("num").innerHTML=num;
+      console.log(x)
+    }
+    </script>
+</html>
